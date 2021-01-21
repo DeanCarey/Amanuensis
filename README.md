@@ -1,9 +1,9 @@
 # P1 by Team Amanuensis
 
-Dean Carey: Project Manager
-Alvin Wu: Apache Droplet Handler
-Jonathan Lee: Flask Interface Efficionato
-Dragos Lup: Code man
+Dean Carey: Project Manager \n
+Alvin Wu: Apache Droplet Handler \n
+Jonathan Lee: Flask Interface Efficionato \n
+Dragos Lup: Code man \n
 
 http://67.205.162.217/
 
