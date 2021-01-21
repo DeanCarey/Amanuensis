@@ -1,0 +1,39 @@
+<!--
+Team SharpCat (Alvin Wu, Madelyn Mao, Jonathan Lee, Victoria Gao) 
+SoftDev 
+P0 -- Da Art of Story Tellin' (Pt 2)
+2020-12-28 
+
+
+
+Update a blog post
+-->
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> Team SharpCat </title>
+  </head>
+
+  <body>
+   <h1> Edit one of your blog posts </h1>
+   <h2>
+    Roster: Alvin Wu, Jonathan Lee, Madelyn Mao, Victoria Gao
+    </h2>
+
+<form action="/update/{{posturl}}">
+      <textarea id="Title" name="Title" rows="3" cols="200">{{oldtitle}}</textarea> 
+
+<form action="/update/{{posturl}}">
+       <textarea id="Text" name="Text" rows="25" cols="200">{{oldtext}}</textarea> 
+     
+<br></br>
+	<input type = "submit" value ="Publish Changes">
+    </form>
+
+<form action="/">
+<input type = "submit" value ="Discard Changes">
+</form>
+  </body>
+
+</html>

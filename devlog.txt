@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Devlog for Team Amanuensis
 
 Instructions:
@@ -13,3 +14,125 @@ deanC -- 2021-1-5 8:55
  - Flask app successfully runs app
  - Encounters user permission error: sqlite3.OperationalError: attempt to write a readonly database, referer
  
+=======
+Team Sharp Cat Devlog
+
+VictoriaG -- 2020-12-18 03:00
+  -created design PDF document with project components, component map, database organization, site map for front end, and tasks
+  -uploaded document to team repo
+
+VictoriaG, AlvinW, JonathanL, & MadelynM -- 2020-12-21 15:07
+  -created design PDF document for Scenario 2 (web log hosting site)
+  -uploaded document to team repo
+  
+VictoriaG, AlvinW, JonathanL, & MadelynM -- 2021-1-4 09:38
+  -Issue #1: No action required
+  -Issue #2: Will add the SQLite data type to the table
+  -Issue #3: No action required
+  -Issue #4: No action required
+  -Issue #5: No action required
+  -Issue #6: No action required
+  -Issue #7: No action required
+  -Issue #8: Will add timeline dates
+  
+MadelynM -- 2021-01-04 12:00PM
+  -Created base of app.py and html files
+
+AlvinW -- 2021-01-04 5:11 PM
+  -Set up working methods for signup, login, and sessions.
+  -Set up database for storing user data
+
+VictoriaG -- 2021-01-04 10:44 PM
+  -In README.md, added roster/roles, project description, and how to clone this repo, install modules, and run Python script.
+  -Organized files based on the repo structure described in P0 (Pt.2) instructions
+  -Created requirements.txt and added latest version of Flask
+  
+AlvinW -- 2021-01-05 11:28 AM
+  -Wrote method to add a blog post
+  -Set up posts database
+  -Linked userID to sessionID and posts  
+  
+MadelynM -- 2021-01-05 08:34PM
+  -added html files for updating blogs
+
+VictoriaG -- 2021-01-06 8:53 PM
+  -Added base.html, which is a parent template that sets up a navigation bar based on whether the user is logged in.  base.html contains {%block} statements in the <head> and <body> sections that are placeholders filled in with content between {%block} statements in the children templates.
+  -Added profile.html that displays a user's biography
+  -Added link to profile.html in app.py with viewprofile() function
+
+AlvinW -- 2021-01-06 10:04 PM
+  -Fixed some issues related to navbar
+  -Added profile functionality, displaying the user's bio
+
+JonathanL -- 2021-01-06 11:03 PM
+  -Changed filenames to be less confusing
+    -viewallposts.html
+    -viewblogposts.html
+    -viewuserblog.html
+    -viewallusers.html
+  -Edited a lot of the contents, but not all. 
+  -Changed __init__.py accordingly, changing the URLs of many routes
+    -viewallblogs
+    -update
+    -viewall
+    -viewblog
+    -viewprofile
+  -Set up viewing a blog post (viewblog & viewblogpost.html)
+  -Added more descriptive specification comments for routes
+  -new /blog that redirects to the logged in user's blog
+  -updateblog.html -> updatepost.html
+  -got viewblogpost skeleton done
+  -made viewuserblog kinda
+  -worked on viewall
+  -tried to make their templates work together as well
+
+JonathanL -- 2021-01-07 12:00 PM
+  -bugfixes for the code i wrote
+
+AlvinW -- 2021-01-07 4:14 PM
+  -bugfixes for code that jonathan wrote
+  -finished implementing some features (added wip browse all functionality, viewing individual posts, and viewing your own posts)
+  -edited templates to make them contain navbar by extending base.html
+
+JonathanL -- 2021-01-07 5:28 PM
+  -Cleaned up html comments and headings
+
+AlvinW -- 2021-01-07 5:36 PM
+  -got about 80% through with the updating blogs feature, was stopped by unknown syntax error
+  -fleshed out updateblog.html with necessary info
+
+JonathanL -- 2021-01-07 6:37PM
+  -Edited post template to be more readable
+  -Changed post order (newest on top) with |reverse
+
+AlvinW -- 2021-01-07 7:03 PM
+  -scrapped mypost code to try new approach
+  -various bugfixes
+
+JonathanL -- 2021-01-07 8:52 PM
+  -autoincrement for user and post ids
+  -finally made editing work!!!
+  -fixed wrong username displaying on all posts page
+
+AlvinW -- 2021-01-07 9:22 PM
+  -many bugfixes
+  -added a view all users option to navbar and coded it
+  -a few bugfixes and style changes
+  -added biography to user blog
+
+JonathanL -- 2021-01-07 10:11 PM
+  -Fixed double usernames issue
+  -Fixed wrong username on others' blogs issue
+  -Fixed guest user issue
+  -Fixed wrong author issue
+  -linked authors on blog posts
+  -linked authors on all posts page
+  -fixed bio bug on blog page
+
+AlvinW -- 2021-01-07 11:00 PM
+  -nuked the redundant profile feature
+  -added discard changes button to post creation and editing posts
+  -code cleanup, commented out diagnostic statements
+  -quality of life changes in templates
+  -took away guests' rights by removing browse option when not logged in 
+>>>>>>> 4e5887b5d7385963b7006d381fceba71e7a7b999
