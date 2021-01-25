@@ -11,7 +11,9 @@ import os
 import sqlite3   #enable control of an sqlite database
 
 #Change this to absolute path when pulling to server /var/www/Amanuensis/app/discobandit.db
-DB_FILE="discobandit.db"
+DIR = os.path.dirname(__file__) or '.'
+DIR += '/'
+DB_FILE= DIR + "discobandit.db"
 db = sqlite3.connect(DB_FILE, check_same_thread = False) #open if file exists, otherwise create
 c = db.cursor()               #facilitate db ops -- you will use cursor to trigger db events
 c.execute('CREATE TABLE IF NOT EXISTS users(ID INTEGER NOT NULL PRIMARY KEY, Username text NOT NULL, Password text, Bio text);')
