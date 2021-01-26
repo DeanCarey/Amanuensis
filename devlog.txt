@@ -18,5 +18,8 @@ jonathanL, dragosL, alvinW -- 2021-01-21
  - App works!!!
 
 alvinW -- 2021-01-25 11:43 
-- Added db pathing to py file so that we don't have to manually change the path every time we go from local to server
-- Changed headings and team names/rosters in html files 
+ - Added db pathing to py file so that we don't have to manually change the path every time we go from local to server
+ - Changed headings and team names/rosters in html files 
+
+deanC -- 2021-01-26 10:15
+ - Added launch codes to README
