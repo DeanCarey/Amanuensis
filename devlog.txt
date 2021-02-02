@@ -13,13 +13,19 @@ deanC -- 2021-01-21 08:55
  - Flask app successfully runs app
  - Encounters user permission error: sqlite3.OperationalError: attempt to write a readonly database, referer
 
-jonathanL, dragosL, alvinW -- 2021-01-21
+jonathanL -- 2021-01-21
  - Fixed permission error through path and permissions
  - App works!!!
 
 alvinW -- 2021-01-25 11:43 
-- Added db pathing to py file so that we don't have to manually change the path every time we go from local to server
-- Changed headings and team names/rosters in html files
+ - Added db pathing to py file so that we don't have to manually change the path every time we go from local to server
+ - Changed headings and team names/rosters in html files 
 
 alvinW -- 2021-01-26 09:51 
-- Changed password field to hide password
+ - Changed password field to hide password
+
+deanC -- 2021-01-26 10:15
+ - Added launch codes
+
+deanC -- 2021-02-02 9:14
+ - Updated templates

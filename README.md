@@ -5,12 +5,15 @@ Alvin Wu: Apache Droplet Handler
 Jonathan Lee: Flask Interface Efficionato  
 Dragos Lup: Code man  
 
-http://67.205.162.217/
+Apache Host ID:  
+http://67.205.162.217/  
 
 Launch codes: 
 
-How to clone/install:
-
-How to run:
+1. git clone https://github.com/DeanCarey/Amanuensis.git  
+2. cd Amanuensis/  
+3. pip install -r requirements.txt  
+4. cd app/  
+5. python3 __init__.py  
 
 =======
