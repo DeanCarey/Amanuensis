@@ -13,7 +13,7 @@ deanC -- 2021-01-21 08:55
  - Flask app successfully runs app
  - Encounters user permission error: sqlite3.OperationalError: attempt to write a readonly database, referer
 
-jonathanL, dragosL, alvinW -- 2021-01-21
+jonathanL -- 2021-01-21
  - Fixed permission error through path and permissions
  - App works!!!
 
